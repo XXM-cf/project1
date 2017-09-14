@@ -1,0 +1,707 @@
+/* main 设置背景 */
+
+.main {
+    width: 100%;
+    min-width: 1200px;
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* service */
+
+
+/* 金牌服务推荐 */
+
+.service {
+    width: 1200px;
+    height: 468px;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+
+.service .service_title {
+    width: 1160px;
+    height: 22px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.service .service_title p {
+    width: 136px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    color: black;
+    float: left;
+}
+
+.service .service_title .line {
+    height: 10px;
+    width: 920px;
+    line-height: 22px;
+    margin: 6px 2px;
+    background: url('../img/line.png') repeat-x;
+    ;
+    float: left;
+}
+
+
+/* 点击查看更多 样式可复用 */
+
+.more_btn {
+    width: 86px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #aaaaaa;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.more_btn .toggle_icon {
+    width: 20px;
+    height: 22px;
+    background: url('../img/base.png') no-repeat -153px -94px;
+    float: left;
+}
+
+.more_btn span {
+    float: left;
+}
+
+#toggle_icon_active {
+    width: 20px;
+    height: 22px;
+    float: left;
+    margin-left: 5px;
+    background: url('../img/base.png') no-repeat -112px -93px;
+}
+
+.service_list {
+    width: 1160px;
+    height: 370px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.service_list li {
+    width: 220px;
+    height: 368px;
+    border: 1px solid #dddddd;
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.service_list li.flag {
+    margin-left: 0;
+}
+
+.service_list li .company_pic {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+
+/* 公司详细信息 样式可以复用 */
+
+.company_name {
+    height: 24px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555555;
+    line-height: 24px;
+}
+
+.company_name:hover {
+    color: #f03c3c;
+    cursor: pointer;
+}
+
+.company_type,
+.company_address,
+.company_judege {
+    font-size: 12px;
+    color: #606060;
+    line-height: 20px;
+    height: 24px;
+}
+
+.service_list li button {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+    border-radius: 2px;
+    width: 84px;
+    height: 26px;
+    font-size: 12px;
+    background: #91cdf1;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+}
+
+
+/* 联系我们弹窗 */
+
+.contact_us_box {
+    width: 300px;
+    height: 300px;
+    background: #F5F5F5;
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top: 30%;
+    margin-top: -150px;
+    z-index: 999;
+    padding-top: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+.contact_us_box .T_code {
+    background: url('../img/code.jpg') no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.contact_us_box p {
+    font-size: 20px;
+    color: #696969;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.contact_us_box div {
+    width: 160px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: #87CEFA;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact_us_box div a {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* 广告图区域 */
+
+.ad_pic {
+    width: 1200px;
+    height: 120px;
+    background: url('../img/adpic.png') no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+
+
+/* team */
+
+.team {
+    width: 1200px;
+    height: 480px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.team .team_title {
+    width: 1160px;
+    height: 45px;
+}
+
+.team .team_title .team_name {
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    color: black;
+    float: left;
+}
+
+.team .team_title .sub_title {
+    font-size: 12px;
+    lighting-color: 45px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    color: #999;
+    margin-right: 10px;
+    box-sizing: border-box;
+    float: left;
+    cursor: pointer;
+}
+
+.team .team_title .sub_title:hover {
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.team .team_title .sub_title#active {
+    color: #f03c3c;
+    border-bottom: 2px solid #f03c3c;
+}
+
+
+/* team_list */
+
+.team_box {
+    width: 1160px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+
+.team_list {
+    width: 1160px;
+    height: 270px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    transition: all 0.6s;
+}
+
+#team_list1 {
+    float: left;
+}
+
+#team_list2 {
+    float: left;
+    display: none;
+}
+
+.team_list li {
+    width: 386px;
+    height: 142px;
+    border-right: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.team_list li .team_pic {
+    width: 102px;
+    height: 102px;
+    background: #e7e7e7;
+    float: left;
+    margin-right: 10px;
+}
+
+.team_list li .team_pic img {
+    margin: 5px auto;
+    width: 70px;
+    height: 60px;
+}
+
+.team_list li .company_dis {
+    float: left;
+    ;
+}
+
+.team_list li.flag2 {
+    padding-left: 0!important;
+}
+
+.team_list li.flag3 {
+    border-right: 0;
+}
+
+
+/* 展示 无缝滚动区域 */
+
+.team_show {
+    width: 1200px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.team_show .team_show_list {
+    width: 1200px;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.team_show .team_show_list li {
+    width: 200px;
+    height: 130px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #dddddd;
+    background: #f2faff;
+}
+
+.team_show .team_show_list li img {
+    margin: 24px auto;
+    width: 90px;
+    height: 80px;
+}
+
+.team_show .team_show_list li img:hover {
+    margin: 24px auto;
+    width: 100px;
+    height: 90px;
+    transition: all 0.8s;
+}
+
+
+/* 人才招聘 */
+
+.recruiment {
+    width: 1200px;
+    height: 336px;
+    background: #fff;
+    transition: all 0.6s;
+}
+
+.recruiment .recruiment_title {
+    width: 1160px;
+    margin: 0 auto;
+    height: 45px;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+
+.recruiment .recruiment_title .recruiment_name {
+    width: 136px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    left: 0;
+}
+
+.recruiment_btn {
+    height: 45px;
+    line-height: 45px;
+}
+
+.recruiment_btn .toggle_icon {
+    margin: 14px auto;
+}
+
+.recruiment_list {
+    width: 1200px;
+    padding: 22px;
+    height: 250px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.recruiment_list li {
+    width: 1160px;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    position: relative;
+}
+
+.recruiment_list li div {
+    float: left;
+}
+
+.recruiment_list li .job_dis {
+    height: 32px;
+    width: 180px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    display: none;
+}
+
+.recruiment_list li .job_dis span {
+    padding: 4px;
+    width: 70px;
+    height: 52px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    color: #FF4500;
+    background: #f4f7f9;
+    border-radius: 2px;
+    margin-right: 5px
+}
+
+.recruiment_list li .job {
+    height: 32px;
+    width: 430px;
+    color: #408cd9;
+}
+
+.recruiment_list li .address {
+    height: 32px;
+    width: 272px;
+    /* margin-left: 330px; */
+}
+
+.recruiment_list li .salary {
+    height: 32px;
+    width: 200px;
+}
+
+.recruiment_list li .salary em {
+    color: #f14949;
+    margin: 0 10px;
+}
+
+em {
+    color: #f14949;
+}
+
+.recruiment_list li .date {
+    height: 32px;
+    width: 80px;
+    float: right;
+}
+
+
+/* 回到顶部 */
+
+.back_top {
+    width: 50px;
+    height: 80px;
+    background-color: #464b51;
+    background-image: url('../img/base.png');
+    background-position: -172px -172px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    min-width: 1200px;
+    height: 210px;
+    background: #464b51;
+}
+
+.footer .footer_content {
+    width: 1200px;
+    height: 210px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.footer .footer_content .footer_list {
+    width: 180px;
+    height: 210px;
+    float: left;
+    overflow: hidden;
+}
+
+.footer .footer_content .footer_list .footer_list_title {
+    height: 26px;
+    width: 205px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.footer_list_title .footer_icon {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 99;
+}
+
+#icon1 {
+    background: url('../img/base.png') no-repeat -25px -138px;
+}
+
+#icon2 {
+    background: url('../img/base.png') no-repeat -71px -137px;
+}
+
+#icon3 {
+    background: url('../img/base.png') no-repeat -71px -137px;
+}
+
+#icon4 {
+    background: url('../img/base.png') no-repeat -178px -133px;
+}
+
+.footer_list_title span {
+    float: left;
+    font-size: 14px;
+    color: #dcdcdc;
+    height: 26px;
+    line-height: 26px;
+}
+
+.footer .footer_content .footer_list li a {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+
+/* watchword */
+
+.watchword {
+    width: 200px;
+    height: 130px;
+    border-image: linear-gradient(#dcdcdc, #464b51) 50;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    float: left;
+}
+
+.watchword .word {
+    height: 44px;
+    width: 130px;
+    margin: 10px auto;
+    background: url('../img/base.png') no-repeat -25px -188px;
+}
+
+.watchword .for_word {
+    font-size: 12px;
+    color: #838383;
+    text-align: center;
+}
+
+.wechat_code {
+    width: 260px;
+    height: 130px;
+    float: left;
+    /* position: relative;
+    left: 0; */
+}
+
+.wechat_code .code {
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wechat_code .code img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.wechat_code .for_code {
+    font-size: 12px;
+    color: #f1f1f1;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+/* copyright */
+
+.copyright {
+    height: 200px;
+    background: #f5f5f5;
+}
+
+.copyright .tab {
+    width: 1200px;
+    position: relative;
+    margin: 16px auto;
+}
+
+.copyright .tab div {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #f5f5f5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.copyright .tab div a {
+    float: left;
+    color: #808080;
+}
+
+.copyright .tab .line1 span {
+    width: 20px;
+    height: 24px;
+    float: left;
+    color: #808080;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.copyright .tab .line1 {
+    width: 730px;
+    height: 24px;
+    border: 1px solid;
+}
+
+.copyright .tab .line2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright .tab .line2 a {
+    margin-right: 10px;
+}
+
+.copyright .tab .line3 {
+    width: 460px;
+    height: 24px;
+    margin: 0 auto;
+    color: #808080;
+    font-size: 12px;
+}
